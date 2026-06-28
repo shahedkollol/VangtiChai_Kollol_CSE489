@@ -1,0 +1,1032 @@
+[  +31 ms] executing: sysctl hw.optional.arm64
+[   +6 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[   +5 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[   +1 ms] executing: [/opt/homebrew/share/flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[  +22 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2026-06-10 15:52:41 -0700
+[  +12 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +30 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[  +57 ms] Skipping pub get: version match.
+[  +62 ms] executing: sysctl hw.optional.arm64
+[   +5 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[        ] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +13 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[        ] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +12 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[  +41 ms] Skipping generating web_plugin_registrant.dart because it is up-to-date.
+[  +23 ms] Generating /Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+[   +3 ms] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[        ] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[        ] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +2 ms] Skipping generating GeneratedPluginRegistrant.h because it is up-to-date.
+[        ] Skipping generating GeneratedPluginRegistrant.m because it is up-to-date.
+[   +1 ms] Skipping generating GeneratedPluginRegistrant.swift because it is up-to-date.
+[        ] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +12 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[   +6 ms] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +11 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[        ] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +11 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[  +13 ms] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +11 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[   +2 ms] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +11 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[        ] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +11 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[  +90 ms] executing: /usr/bin/plutil -convert xml1 -o - /Applications/Android Studio.app/Contents/Info.plist
+[  +10 ms] Exit code 0 from: /usr/bin/plutil -convert xml1 -o - /Applications/Android Studio.app/Contents/Info.plist
+[        ] <?xml version="1.0" encoding="UTF-8"?>
+           <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+           <plist version="1.0">
+           <dict>
+           	<key>CFBundleDevelopmentRegion</key>
+           	<string>English</string>
+           	<key>CFBundleDocumentTypes</key>
+           	<array>
+           		<dict>
+           			<key>CFBundleTypeExtensions</key>
+           			<array>
+           				<string>ipr</string>
+           			</array>
+           			<key>CFBundleTypeIconFile</key>
+           			<string>studio.icns</string>
+           			<key>CFBundleTypeName</key>
+           			<string>Android Studio Project File</string>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           		</dict>
+           		<dict>
+           			<key>CFBundleTypeExtensions</key>
+           			<array>
+           				<string>*</string>
+           			</array>
+           			<key>CFBundleTypeName</key>
+           			<string>All documents</string>
+           			<key>CFBundleTypeOSTypes</key>
+           			<array>
+           				<string>****</string>
+           			</array>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           			<key>LSTypeIsPackage</key>
+           			<false/>
+           		</dict>
+           	</array>
+           	<key>CFBundleExecutable</key>
+           	<string>studio</string>
+           	<key>CFBundleGetInfoString</key>
+           	<string>Android Studio 2026.1, build AI-261.23567.138.2611.15613797. Copyright JetBrains s.r.o., (c) 2000-2026</string>
+           	<key>CFBundleIconFile</key>
+           	<string>studio.icns</string>
+           	<key>CFBundleIdentifier</key>
+           	<string>com.google.android.studio</string>
+           	<key>CFBundleInfoDictionaryVersion</key>
+           	<string>6.0</string>
+           	<key>CFBundleName</key>
+           	<string>Android Studio</string>
+           	<key>CFBundlePackageType</key>
+           	<string>APPL</string>
+           	<key>CFBundleShortVersionString</key>
+           	<string>2026.1</string>
+           	<key>CFBundleURLTypes</key>
+           	<array>
+           		<dict>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           			<key>CFBundleURLName</key>
+           			<string>Stacktrace</string>
+           			<key>CFBundleURLSchemes</key>
+           			<array>
+           				<string>idea</string>
+           			</array>
+           		</dict>
+           	</array>
+           	<key>CFBundleVersion</key>
+           	<string>AI-261.23567.138.2611.15613797</string>
+           	<key>LSApplicationCategoryType</key>
+           	<string>public.app-category.developer-tools</string>
+           	<key>LSArchitecturePriority</key>
+           	<array>
+           		<string>arm64</string>
+           	</array>
+           	<key>LSMinimumSystemVersion</key>
+           	<string>10.13</string>
+           	<key>LSRequiresNativeExecution</key>
+           	<string>YES</string>
+           	<key>NSAppleEventsUsageDescription</key>
+           	<string>An application in Android Studio requests the ability to send Apple events.</string>
+           	<key>NSBluetoothAlwaysUsageDescription</key>
+           	<string>An application in Android Studio requests access to Bluetooth.</string>
+           	<key>NSCameraUsageDescription</key>
+           	<string>An application in Android Studio requests access to the device's camera.</string>
+           	<key>NSDesktopFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's Desktop folder.</string>
+           	<key>NSDocumentsFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's Documents folder.</string>
+           	<key>NSDownloadsFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's Downloads folder.</string>
+           	<key>NSHighResolutionCapable</key>
+           	<true/>
+           	<key>NSLocalNetworkUsageDescription</key>
+           	<string>Android Studio's features, such as SSH and database connectivity, require permissions for accessing the local network and sending broadcast requests.</string>
+           	<key>NSLocationUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's location information.</string>
+           	<key>NSMicrophoneUsageDescription</key>
+           	<string>An application in Android Studio requests access to the device's microphone.</string>
+           	<key>NSNetworkVolumesUsageDescription</key>
+           	<string>An application in Android Studio requests access to files on a network volume.</string>
+           	<key>NSRemovableVolumesUsageDescription</key>
+           	<string>An application in Android Studio requests access to files on a removable volume.</string>
+           	<key>NSSupportsAutomaticGraphicsSwitching</key>
+           	<true/>
+           </dict>
+           </plist>
+[   +6 ms] executing: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java -version
+[ +112 ms] Exit code 0 from: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java -version
+[        ] openjdk version "21.0.10" 2026-01-20
+           OpenJDK Runtime Environment (build 21.0.10+-117844308-b1163.108)
+           OpenJDK 64-Bit Server VM (build 21.0.10+-117844308-b1163.108, mixed mode)
+[   +6 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[   +1 ms] executing: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java --version
+[  +71 ms] Exit code 0 from: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java --version
+[        ] openjdk 21.0.10 2026-01-20
+           OpenJDK Runtime Environment (build 21.0.10+-117844308-b1163.108)
+           OpenJDK 64-Bit Server VM (build 21.0.10+-117844308-b1163.108, mixed mode)
+[        ] Version of Java is different than impacted version, no migration attempted.
+[   +1 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[   +3 ms] The developer has already configured the Built-In Kotlin flag, skipping migration.
+[        ] The developer has already configured the new DSL flag, skipping migration.
+[   +3 ms] Using gradle from /Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/gradlew.
+[  +10 ms] LocalFile: '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[   +1 ms] LocalFile: '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/settings.gradle.kts' provides AGP version: 9.0.1
+[   +7 ms] Running Gradle task 'assembleDebug'...
+[        ] executing: [/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/] /Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/gradlew --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib/main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuNDQuMg==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049YzlhNmM0ODQyMw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NzdlMmU5NDc3Mg==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMi4y -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug
+[ +840 ms] Initialized native services in: /Users/shahedkollol/.gradle/native
+[        ] Initialized jansi services in: /Users/shahedkollol/.gradle/native
+[ +323 ms] Found daemon DaemonInfo{pid=5147, address=[26c5962d-2835-4627-adc6-14a7d5048af1 port:54363, addresses:[/127.0.0.1]], state=Idle, lastBusy=1782626886246, context=DefaultDaemonContext[uid=0746a619-f27e-41f5-9c36-45ec7806359b,javaHome=/Users/shahedkollol/Library/Java/JavaVirtualMachines/openjdk-26.0.1/Contents/Home,javaVersion=26,javaVendor=Oracle Corporation,daemonRegistryDir=/Users/shahedkollol/.gradle/daemon,pid=5147,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+[        ] JVM is incompatible.
+[        ] Wanted: DaemonRequestContext{jvmCriteria=/Applications/Android Studio.app/Contents/jbr/Contents/Home (no JDK specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=4G, -XX:ReservedCodeCacheSize=512m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx8G, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+[        ] Actual: DefaultDaemonContext[uid=0746a619-f27e-41f5-9c36-45ec7806359b,javaHome=/Users/shahedkollol/Library/Java/JavaVirtualMachines/openjdk-26.0.1/Contents/Home,javaVersion=26,javaVendor=Oracle Corporation,daemonRegistryDir=/Users/shahedkollol/.gradle/daemon,pid=5147,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+[        ]   Looking for a different daemon...
+[        ] The client will now receive all logging from the daemon (pid: 1966). The daemon log file: /Users/shahedkollol/.gradle/daemon/9.1.0/daemon-1966.out.log
+[        ] Starting 8th build in daemon [uptime: 1 hrs 20 mins 7.455 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 8 GiB, non-heap usage: 7% of 4 GiB]
+[        ] Using 10 worker leases.
+[        ] Now considering [/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android, /opt/homebrew/share/flutter/packages/flutter_tools/gradle, /Users/shahedkollol/AndroidStudioProjects/VangtiChai.dart/android] as hierarchies to watch
+[        ] Watching the file system is configured to be enabled if available
+[        ] File system watching is active
+[  +99 ms] Starting Build
+[        ] Now considering [/opt/homebrew/share/flutter/packages/flutter_tools/gradle, /Users/shahedkollol/AndroidStudioProjects/vargtichai02/android, /Users/shahedkollol/AndroidStudioProjects/VangtiChai.dart/android] as hierarchies to watch
+[ +100 ms] > Configure project :gradle
+[        ] Evaluating project ':gradle' using build file '/opt/homebrew/share/flutter/packages/flutter_tools/gradle/build.gradle.kts'.
+[        ] Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+[        ] Resolved plugin [id: 'org.gradle.groovy']
+[        ] Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '6.2.0']
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.2.20']
+[        ] Build 99b2c158-da6c-4a4f-a3ed-8065f5d43c91 is started
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+[        ] kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+[        ] WARNING: Unsupported Kotlin plugin version.
+[        ] The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.2.0` that might work differently than in the requested version `2.2.20`.
+[        ] file or directory '/opt/homebrew/share/flutter/packages/flutter_tools/gradle/src/main/java', not found
+[        ] Resolved plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+[        ] Resolved plugin [id: 'com.android.application', version: '9.0.1', apply: false]
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.3.20', apply: false]
+[        ] Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#1265,Execution worker,5,main]) started.
+[        ] :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[  +95 ms] > Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :gradle:compileKotlin (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] :gradle:compileKotlin (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] > Task :gradle:compileKotlin UP-TO-DATE
+[        ] Caching disabled for task ':gradle:compileKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':gradle:compileKotlin' as it is up-to-date.
+[        ] Resolve mutations for :gradle:compileJava (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] :gradle:compileJava (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] > Task :gradle:compileJava NO-SOURCE
+[        ] Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:compileGroovy (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] :gradle:compileGroovy (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] > Task :gradle:compileGroovy NO-SOURCE
+[        ] Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:pluginDescriptors (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] :gradle:pluginDescriptors (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] > Task :gradle:pluginDescriptors UP-TO-DATE
+[        ] Caching disabled for task ':gradle:pluginDescriptors' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+[        ] Resolve mutations for :gradle:processResources (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] :gradle:processResources (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] > Task :gradle:processResources UP-TO-DATE
+[        ] Caching disabled for task ':gradle:processResources' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:processResources' as it is up-to-date.
+[        ] Resolve mutations for :gradle:classes (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] :gradle:classes (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] > Task :gradle:classes UP-TO-DATE
+[        ] Skipping task ':gradle:classes' as it has no actions.
+[        ] Resolve mutations for :gradle:jar (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] :gradle:jar (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] > Task :gradle:jar UP-TO-DATE
+[        ] Caching disabled for task ':gradle:jar' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:jar' as it is up-to-date.
+[ +197 ms] Settings evaluated using settings file '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/settings.gradle.kts'.
+[        ] Projects loaded. Root project using build file '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/build.gradle.kts'.
+[        ] Included projects: [root project 'android', project ':app']
+[ +196 ms] > Configure project :app
+[        ] Evaluating project ':app' using build file '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/build.gradle.kts'.
+[        ] Resolved plugin [id: 'com.android.application']
+[        ] Resolved plugin [id: 'dev.flutter.flutter-gradle-plugin']
+[        ] WARNING: The option setting 'android.builtInKotlin=false' is deprecated.
+[        ] The current default is 'true'.
+[        ] It will be removed in version 10.0 of the Android Gradle plugin.
+[        ] WARNING: The option setting 'android.newDsl=false' is deprecated.
+[        ] The current default is 'true'.
+[        ] It will be removed in version 10.0 of the Android Gradle plugin.
+[        ] Using default execution profile
+[        ] Build 049254cd-b654-435e-a1c8-f5a0ad421b68 is started
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[   +1 ms] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] w: ⚠️ Deprecated 'org.jetbrains.kotlin.android' plugin usage
+[        ] The 'org.jetbrains.kotlin.android' plugin in project ':app' is no longer required for Kotlin support since AGP 9.0.
+[        ] Solution: Remove both `android.builtInKotlin=true` and `android.newDsl=false` from `gradle.properties`, then migrate to built-in Kotlin.
+[        ] See https://kotl.in/gradle/agp-built-in-kotlin for more details.
+[        ] > Configure project :
+[        ] Evaluating root project 'android' using build file '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/build.gradle.kts'.
+[        ] All projects evaluated.
+[  +88 ms] Task name matched 'assembleDebug'
+[        ] Selected primary task 'assembleDebug' from project :
+[        ] Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugKotlin
+[        ] Tasks to be executed: [task ':app:DebugMinSdkCheck', task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:cleanMergeDebugAssets', task ':app:compileFlutterBuildDebug', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:copyFlutterAssetsDebug', task ':app:generateDebugResources', task ':app:packageDebugResources', task ':app:processDebugNavigationResources', task ':app:parseDebugLocalResources', task ':app:generateDebugRFile', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:compressDebugAssets', task ':app:desugarDebugFileDependencies', task ':app:checkDebugAarMetadata', task ':app:compileDebugNavigationResources', task ':app:mapDebugSourceSetPaths', task ':app:mergeDebugResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:outputDebugAppLinkSettings', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:dexBuilderDebug', task ':app:mergeDebugGlobalSynthetics', task ':app:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:mergeExtDexDebug', task ':app:mergeLibDexDebug', task ':app:mergeProjectDexDebug', task ':app:configureCMakeDebug[arm64-v8a]', task ':app:buildCMakeDebug[arm64-v8a]', task ':app:configureCMakeDebug[armeabi-v7a]', task ':app:buildCMakeDebug[armeabi-v7a]', task ':app:configureCMakeDebug[x86_64]', task ':app:buildCMakeDebug[x86_64]', task ':app:copyJniLibsflutterBuildDebug', task ':app:mergeDebugJniLibFolders', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug']
+[        ] Tasks that were excluded: []
+[        ] Resolve mutations for :app:DebugMinSdkCheck (Thread[#1264,included builds,5,main]) started.
+[        ] :app:DebugMinSdkCheck (Thread[#1264,included builds,5,main]) started.
+[        ] > Task :app:DebugMinSdkCheck
+[        ] Caching disabled for task ':app:DebugMinSdkCheck' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:DebugMinSdkCheck' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :app:preBuild (Thread[#1264,included builds,5,main]) started.
+[        ] :app:preBuild (Thread[#1264,included builds,5,main]) started.
+[        ] > Task :app:preBuild UP-TO-DATE
+[        ] Skipping task ':app:preBuild' as it has no actions.
+[        ] Resolve mutations for :app:preDebugBuild (Thread[#1264,included builds,5,main]) started.
+[        ] :app:preDebugBuild (Thread[#1264,included builds,5,main]) started.
+[        ] > Task :app:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':app:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[#1264,included builds,5,main]) started.
+[        ] :app:mergeDebugNativeDebugMetadata (Thread[#1264,included builds,5,main]) started.
+[        ] > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+[        ] Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+[        ] Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#1264,included builds,5,main]) started.
+[        ] :app:checkKotlinGradlePluginConfigurationErrors (Thread[#1264,included builds,5,main]) started.
+[        ] > Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':app:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :app:cleanMergeDebugAssets (Thread[#1264,included builds,5,main]) started.
+[        ] :app:cleanMergeDebugAssets (Thread[#1264,included builds,5,main]) started.
+[        ] > Task :app:cleanMergeDebugAssets
+[        ] Caching disabled for task ':app:cleanMergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:cleanMergeDebugAssets' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :app:compileFlutterBuildDebug (Thread[#1264,included builds,5,main]) started.
+[        ] :app:compileFlutterBuildDebug (Thread[#1264,included builds,5,main]) started.
+[+1995 ms] > Task :app:compileFlutterBuildDebug
+[        ] Caching disabled for task ':app:compileFlutterBuildDebug' because:
+[        ]   Build cache is disabled
+[        ]   Caching has not been enabled for the task
+[        ] Task ':app:compileFlutterBuildDebug' is not up-to-date because:
+[        ]   Value of input property 'fileSystemScheme' has changed for task ':app:compileFlutterBuildDebug'
+[        ]   Value of input property 'targetPath' has changed for task ':app:compileFlutterBuildDebug'
+[        ]   Value of input property 'targetPlatformValues' has changed for task ':app:compileFlutterBuildDebug'
+[        ]   and more...
+[        ] Starting process 'command '/opt/homebrew/share/flutter/bin/flutter''. Working directory: /Users/shahedkollol/AndroidStudioProjects/vargtichai02 Command: /opt/homebrew/share/flutter/bin/flutter --verbose assemble --no-version-check --depfile /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/flutter/debug/flutter_build.d --output /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/flutter/debug -dTargetFile=lib/main.dart -dTargetPlatform=android -dBuildMode=debug -dTrackWidgetCreation=true --DartDefines=RkxVVFRFUl9WRVJTSU9OPTMuNDQuMg==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049YzlhNmM0ODQyMw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NzdlMmU5NDc3Mg==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMi4y -dFlavor= -dAndroidArchs=android-arm android-arm64 android-x64 -dMinSdkVersion=24 debug_android_application
+[        ] Successfully started process 'command '/opt/homebrew/share/flutter/bin/flutter''
+[        ] [  +38 ms] executing: sysctl hw.optional.arm64
+[        ] [  +12 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] [        ] hw.optional.arm64: 1
+[        ] [  +10 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [   +2 ms] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] [  +11 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [  +43 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] [  +21 ms] Initializing file store
+[        ] [  +18 ms] dart_build: Starting due to {}
+[        ] [   +1 ms] Skipping target: gen_localizations
+[        ] [   +1 ms] gen_dart_plugin_registrant: Starting due to {InvalidatedReasonKind.inputChanged: The following inputs have updated contents: /Users/shahedkollol/AndroidStudioProjects/vargtichai02/.dart_tool/package_config.json}
+[        ] [  +41 ms] No packages with native assets. Skipping native assets compilation.
+[        ] [   +2 ms] dart_build: Complete
+[        ] [   +2 ms] install_code_assets: Starting due to {}
+[        ] [  +10 ms] Writing native assets json to file:///Users/shahedkollol/AndroidStudioProjects/vargtichai02/.dart_tool/flutter_build/37bebbccdeb7123065c5bae2988e631c/native_assets.json.
+[        ] [   +3 ms] Writing /Users/shahedkollol/AndroidStudioProjects/vargtichai02/.dart_tool/flutter_build/37bebbccdeb7123065c5bae2988e631c/native_assets.json done.
+[        ] [        ] install_code_assets: Complete
+[        ] [  +24 ms] gen_dart_plugin_registrant: Complete
+[        ] [   +1 ms] kernel_snapshot_program: Starting due to {}
+[        ] [   +8 ms] /opt/homebrew/share/flutter/bin/cache/dart-sdk/bin/dartaotruntime /opt/homebrew/share/flutter/bin/cache/dart-sdk/bin/snapshots/frontend_server_aot.dart.snapshot --sdk-root /opt/homebrew/share/flutter/bin/cache/artifacts/engine/common/flutter_patched_sdk/ --target=flutter --no-print-incremental-dependencies -DFLUTTER_VERSION=3.44.2 -DFLUTTER_CHANNEL=stable -DFLUTTER_GIT_URL=https://github.com/flutter/flutter.git -DFLUTTER_FRAMEWORK_REVISION=c9a6c48423 -DFLUTTER_ENGINE_REVISION=77e2e94772 -DFLUTTER_DART_VERSION=3.12.2 -DFLUTTER_APP_FLAVOR= -Ddart.vm.profile=false -Ddart.vm.product=false --enable-asserts --track-widget-creation --no-link-platform --packages /Users/shahedkollol/AndroidStudioProjects/vargtichai02/.dart_tool/package_config.json --output-dill /Users/shahedkollol/AndroidStudioProjects/vargtichai02/.dart_tool/flutter_build/37bebbccdeb7123065c5bae2988e631c/app.dill --depfile /Users/shahedkollol/AndroidStudioProjects/vargtichai02/.dart_tool/flutter_build/37bebbccdeb7123065c5bae2988e631c/kernel_snapshot_program.d --incremental --initialize-from-dill /Users/shahedkollol/AndroidStudioProjects/vargtichai02/.dart_tool/flutter_build/37bebbccdeb7123065c5bae2988e631c/app.dill --verbosity=error package:vargtichai02/main.dart
+[+3689 ms] [+5091 ms] kernel_snapshot_program: Complete
+[ +797 ms] [ +820 ms] debug_android_application: Starting due to {}
+[ +101 ms] [  +79 ms] impellerc command: [/opt/homebrew/share/flutter/bin/cache/artifacts/engine/darwin-x64/impellerc, --sksl, --runtime-stage-gles, --runtime-stage-gles3, --runtime-stage-vulkan, --iplr, --sl=/Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/flutter/debug/flutter_assets/shaders/ink_sparkle.frag, --spirv=/Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/flutter/debug/flutter_assets/shaders/ink_sparkle.frag.spirv, --input=/opt/homebrew/share/flutter/packages/flutter/lib/src/material/shaders/ink_sparkle.frag, --input-type=frag, --include=/opt/homebrew/share/flutter/packages/flutter/lib/src/material/shaders, --include=/opt/homebrew/share/flutter/bin/cache/artifacts/engine/darwin-x64/shader_lib]
+[        ] [   +1 ms] impellerc command: [/opt/homebrew/share/flutter/bin/cache/artifacts/engine/darwin-x64/impellerc, --sksl, --runtime-stage-gles, --runtime-stage-gles3, --runtime-stage-vulkan, --iplr, --sl=/Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/flutter/debug/flutter_assets/shaders/stretch_effect.frag, --spirv=/Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/flutter/debug/flutter_assets/shaders/stretch_effect.frag.spirv, --input=/opt/homebrew/share/flutter/packages/flutter/lib/src/material/shaders/stretch_effect.frag, --input-type=frag, --include=/opt/homebrew/share/flutter/packages/flutter/lib/src/material/shaders, --include=/opt/homebrew/share/flutter/bin/cache/artifacts/engine/darwin-x64/shader_lib]
+[ +499 ms] [ +571 ms] debug_android_application: Complete
+[ +799 ms] [ +748 ms] Persisting file store
+[        ] [   +3 ms] Done persisting file store
+[        ] [   +8 ms] build succeeded.
+[        ] [   +2 ms] "flutter assemble" took 7,522ms.
+[        ] [   +4 ms] executing: sw_vers -productName
+[        ] [  +12 ms] Exit code 0 from: sw_vers -productName
+[        ] [        ] macOS
+[        ] [        ] executing: sw_vers -productVersion
+[        ] [  +10 ms] Exit code 0 from: sw_vers -productVersion
+[        ] [        ] 26.5.1
+[        ] [        ] executing: sw_vers -buildVersion
+[        ] [  +10 ms] Exit code 0 from: sw_vers -buildVersion
+[        ] [        ] 25F80
+[        ] [        ] executing: uname -m
+[        ] [   +4 ms] Exit code 0 from: uname -m
+[        ] [        ] arm64
+[ +102 ms] [   +8 ms] Running 1 shutdown hook
+[        ] [        ] Shutdown hooks complete
+[ +197 ms] [ +227 ms] exiting with code 0
+[ +102 ms] Resolve mutations for :app:generateDebugAssets (Thread[#1264,included builds,5,main]) started.
+[        ] :app:generateDebugAssets (Thread[#1264,included builds,5,main]) started.
+[        ] > Task :app:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':app:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :app:mergeDebugAssets (Thread[#1264,included builds,5,main]) started.
+[        ] :app:mergeDebugAssets (Thread[#1264,included builds,5,main]) started.
+[  +95 ms] > Task :app:mergeDebugAssets
+[        ] Caching disabled for task ':app:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Task ':app:mergeDebugAssets' is not up-to-date because:
+[        ]   Output property 'outputDir' file /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/assets/debug/mergeDebugAssets has been removed.
+[        ] The input changes require a full rebuild for incremental task ':app:mergeDebugAssets'.
+[        ] Resolve mutations for :app:copyFlutterAssetsDebug (Thread[#1264,included builds,5,main]) started.
+[        ] :app:copyFlutterAssetsDebug (Thread[#1264,included builds,5,main]) started.
+[ +202 ms] > Task :app:copyFlutterAssetsDebug
+[        ] Caching disabled for task ':app:copyFlutterAssetsDebug' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Task ':app:copyFlutterAssetsDebug' is not up-to-date because:
+[        ]   Output property 'destinationDir' file /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets has been removed.
+[        ]   Output property 'destinationDir' file /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/AssetManifest.bin has been removed.
+[        ]   Output property 'destinationDir' file /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/FontManifest.json has been removed.
+[        ]   and more...
+[        ] Resolve mutations for :app:generateDebugResources (Thread[#1264,included builds,5,main]) started.
+[        ] :app:generateDebugResources (Thread[#1264,included builds,5,main]) started.
+[        ] > Task :app:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:packageDebugResources (Thread[#1264,included builds,5,main]) started.
+[        ] :app:packageDebugResources (Thread[#1264,included builds,5,main]) started.
+[        ] > Task :app:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:packageDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugNavigationResources (Thread[#1264,included builds,5,main]) started.
+[        ] :app:processDebugNavigationResources (Thread[#1264,included builds,5,main]) started.
+[        ] > Task :app:processDebugNavigationResources UP-TO-DATE
+[        ] Caching disabled for task ':app:processDebugNavigationResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugNavigationResources' as it is up-to-date.
+[        ] Resolve mutations for :app:parseDebugLocalResources (Thread[#1264,included builds,5,main]) started.
+[        ] :app:parseDebugLocalResources (Thread[#1264,included builds,5,main]) started.
+[        ] > Task :app:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':app:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :app:generateDebugRFile (Thread[#1264,included builds,5,main]) started.
+[        ] :app:generateDebugRFile (Thread[#1264,included builds,5,main]) started.
+[        ] > Task :app:generateDebugRFile UP-TO-DATE
+[        ] Caching disabled for task ':app:generateDebugRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:generateDebugRFile' as it is up-to-date.
+[        ] Resolve mutations for :app:compileDebugKotlin (Thread[#1264,included builds,5,main]) started.
+[        ] :app:compileDebugKotlin (Thread[#1264,included builds,5,main]) started.
+[ +101 ms] Resolve mutations for :app:javaPreCompileDebug (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:javaPreCompileDebug (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:javaPreCompileDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:javaPreCompileDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:compressDebugAssets (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:compressDebugAssets (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:compressDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':app:compressDebugAssets' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:compressDebugAssets' as it is up-to-date.
+[        ] Resolve mutations for :app:desugarDebugFileDependencies (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:desugarDebugFileDependencies (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:desugarDebugFileDependencies UP-TO-DATE
+[        ] Caching disabled for task ':app:desugarDebugFileDependencies' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:desugarDebugFileDependencies' as it is up-to-date.
+[        ] Resolve mutations for :app:checkDebugAarMetadata (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:checkDebugAarMetadata (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:checkDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':app:checkDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+[        ] Resolve mutations for :app:compileDebugNavigationResources (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:compileDebugNavigationResources (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:compileDebugNavigationResources UP-TO-DATE
+[        ] Caching disabled for task ':app:compileDebugNavigationResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:compileDebugNavigationResources' as it is up-to-date.
+[        ] Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:mapDebugSourceSetPaths (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[  +93 ms] > Task :app:mapDebugSourceSetPaths UP-TO-DATE
+[        ] Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+[        ] Resolve mutations for :app:mergeDebugResources (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:mergeDebugResources (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:mergeDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:createDebugCompatibleScreenManifests (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+[        ] Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+[        ] Resolve mutations for :app:extractDeepLinksDebug (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:extractDeepLinksDebug (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugMainManifest (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:processDebugMainManifest (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:processDebugMainManifest UP-TO-DATE
+[        ] Caching disabled for task ':app:processDebugMainManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+[        ] Resolve mutations for :app:outputDebugAppLinkSettings (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:outputDebugAppLinkSettings (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:outputDebugAppLinkSettings UP-TO-DATE
+[        ] Caching disabled for task ':app:outputDebugAppLinkSettings' because:
+[        ]   Build cache is disabled
+[        ]   Caching has not been enabled for the task
+[        ] Skipping task ':app:outputDebugAppLinkSettings' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugManifest (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:processDebugManifest (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':app:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugManifest' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugManifestForPackage (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:processDebugManifestForPackage (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:processDebugManifestForPackage UP-TO-DATE
+[        ] Custom actions are attached to task ':app:processDebugManifestForPackage'.
+[        ] Caching disabled for task ':app:processDebugManifestForPackage' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugResources (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:processDebugResources (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:processDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:processDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:checkDebugDuplicateClasses (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:checkDebugDuplicateClasses (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[  +87 ms] Resolve mutations for :app:configureCMakeDebug[arm64-v8a] (Thread[#1265,Execution worker,5,main]) started.
+[        ] :app:configureCMakeDebug[arm64-v8a] (Thread[#1265,Execution worker,5,main]) started.
+[        ] > Task :app:checkDebugDuplicateClasses
+[        ] Caching disabled for task ':app:checkDebugDuplicateClasses' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:checkDebugDuplicateClasses' is not up-to-date because:
+[        ]   Input property 'enumeratedClasses' file /Users/shahedkollol/.gradle/caches/9.1.0/transforms/3f2baea277dc78b436099ce7914d3af4/transformed/armeabi_v7a_debug-1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab has been added.
+[        ]   Input property 'enumeratedClasses' file /Users/shahedkollol/.gradle/caches/9.1.0/transforms/4eee062a23855565996025d36cf6e789/transformed/x86_64_debug-1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab has been added.
+[        ] > Task :app:configureCMakeDebug[arm64-v8a]
+[        ] Caching disabled for task ':app:configureCMakeDebug[arm64-v8a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:configureCMakeDebug[arm64-v8a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: /opt/homebrew/share/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|arm64-v8a : Start JSON generation. Platform version: 24 min SDK version: arm64-v8a
+[        ] C/C++: /opt/homebrew/share/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|arm64-v8a : JSON '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/.cxx/debug/y3d16522/arm64-v8a/android_gradle_build.json' was up-to-date
+[        ] C/C++: /opt/homebrew/share/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|arm64-v8a : JSON generation completed without problems
+[        ] C/C++: /opt/homebrew/share/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|arm64-v8a : Writing build model to /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/cxx/debug/y3d16522/logs/arm64-v8a/build_model.json
+[        ] Resolve mutations for :app:mergeExtDexDebug (Thread[#1265,Execution worker,5,main]) started.
+[        ] :app:mergeExtDexDebug (Thread[#1265,Execution worker,5,main]) started.
+[        ] > Task :app:mergeExtDexDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeExtDexDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeExtDexDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:mergeLibDexDebug (Thread[#1265,Execution worker,5,main]) started.
+[        ] :app:mergeLibDexDebug (Thread[#1265,Execution worker,5,main]) started.
+[        ] > Task :app:mergeLibDexDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeLibDexDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeLibDexDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:buildCMakeDebug[arm64-v8a] (Thread[#1265,Execution worker,5,main]) started.
+[        ] :app:buildCMakeDebug[arm64-v8a] (Thread[#1265,Execution worker,5,main]) started.
+[        ] > Task :app:buildCMakeDebug[arm64-v8a]
+[        ] Caching disabled for task ':app:buildCMakeDebug[arm64-v8a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:buildCMakeDebug[arm64-v8a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: starting build
+[        ] C/C++: reading expected JSONs
+[        ] C/C++: done reading expected JSONs
+[        ] C/C++: executing build commands for targets that produce .so files or executables
+[        ] C/C++: evaluate miniconfig
+[        ] C/C++: no libraries
+[        ] Resolve mutations for :app:configureCMakeDebug[armeabi-v7a] (Thread[#1265,Execution worker,5,main]) started.
+[        ] :app:configureCMakeDebug[armeabi-v7a] (Thread[#1265,Execution worker,5,main]) started.
+[  +97 ms] > Task :app:configureCMakeDebug[armeabi-v7a]
+[        ] Caching disabled for task ':app:configureCMakeDebug[armeabi-v7a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:configureCMakeDebug[armeabi-v7a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: /opt/homebrew/share/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|armeabi-v7a : Start JSON generation. Platform version: 24 min SDK version: armeabi-v7a
+[        ] C/C++: /opt/homebrew/share/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|armeabi-v7a : JSON '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/.cxx/debug/y3d16522/armeabi-v7a/android_gradle_build.json' was up-to-date
+[        ] C/C++: /opt/homebrew/share/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|armeabi-v7a : JSON generation completed without problems
+[        ] C/C++: /opt/homebrew/share/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|armeabi-v7a : Writing build model to /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/cxx/debug/y3d16522/logs/armeabi-v7a/build_model.json
+[        ] Resolve mutations for :app:buildCMakeDebug[armeabi-v7a] (Thread[#1265,Execution worker,5,main]) started.
+[        ] :app:buildCMakeDebug[armeabi-v7a] (Thread[#1265,Execution worker,5,main]) started.
+[        ] > Task :app:buildCMakeDebug[armeabi-v7a]
+[        ] Caching disabled for task ':app:buildCMakeDebug[armeabi-v7a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:buildCMakeDebug[armeabi-v7a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: starting build
+[        ] C/C++: reading expected JSONs
+[        ] C/C++: done reading expected JSONs
+[        ] C/C++: executing build commands for targets that produce .so files or executables
+[        ] C/C++: evaluate miniconfig
+[        ] C/C++: no libraries
+[        ] Resolve mutations for :app:configureCMakeDebug[x86_64] (Thread[#1265,Execution worker,5,main]) started.
+[        ] :app:configureCMakeDebug[x86_64] (Thread[#1265,Execution worker,5,main]) started.
+[        ] > Task :app:configureCMakeDebug[x86_64]
+[        ] Caching disabled for task ':app:configureCMakeDebug[x86_64]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:configureCMakeDebug[x86_64]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: /opt/homebrew/share/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|x86_64 : Start JSON generation. Platform version: 24 min SDK version: x86_64
+[        ] C/C++: /opt/homebrew/share/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|x86_64 : JSON '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/.cxx/debug/y3d16522/x86_64/android_gradle_build.json' was up-to-date
+[        ] C/C++: /opt/homebrew/share/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|x86_64 : JSON generation completed without problems
+[        ] C/C++: /opt/homebrew/share/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|x86_64 : Writing build model to /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/cxx/debug/y3d16522/logs/x86_64/build_model.json
+[        ] Resolve mutations for :app:buildCMakeDebug[x86_64] (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] :app:buildCMakeDebug[x86_64] (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] > Task :app:buildCMakeDebug[x86_64]
+[        ] Caching disabled for task ':app:buildCMakeDebug[x86_64]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:buildCMakeDebug[x86_64]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: starting build
+[        ] C/C++: reading expected JSONs
+[        ] C/C++: done reading expected JSONs
+[        ] C/C++: executing build commands for targets that produce .so files or executables
+[        ] C/C++: evaluate miniconfig
+[        ] C/C++: no libraries
+[        ] Resolve mutations for :app:copyJniLibsflutterBuildDebug (Thread[#1273,Execution worker Thread 9,5,main]) started.
+[        ] :app:copyJniLibsflutterBuildDebug (Thread[#1267,Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:copyJniLibsflutterBuildDebug NO-SOURCE
+[        ] Skipping task ':app:copyJniLibsflutterBuildDebug' as it has no source files and no previous output files.
+[        ] Resolve mutations for :app:mergeDebugJniLibFolders (Thread[#1267,Execution worker Thread 3,5,main]) started.
+[        ] :app:mergeDebugJniLibFolders (Thread[#1267,Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':app:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :app:mergeDebugNativeLibs (Thread[#1267,Execution worker Thread 3,5,main]) started.
+[        ] :app:mergeDebugNativeLibs (Thread[#1267,Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:compileDebugKotlin
+[        ] Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugAndroidTestKotlin
+[        ] GradleBuildProject.Builder should not be accessed through AnalyticsConfiguratorService after AnalyticsService is created. Analytics information of this build might be incomplete.
+[        ] Caching disabled for task ':app:compileDebugKotlin' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:compileDebugKotlin' is not up-to-date because:
+[        ]   Input property 'classpathSnapshotProperties.classpathSnapshot' file /Users/shahedkollol/.gradle/caches/9.1.0/transforms/36cf2d141e66fce34be6cadea98ec208/transformed/annotations-23_0_0_jar-snapshot.bin has been removed.
+[        ]   Input property 'classpathSnapshotProperties.classpathSnapshot' file /Users/shahedkollol/.gradle/caches/9.1.0/transforms/9cef7932d10567a60a36cc6d3ed27ce4/transformed/arm64_v8a_debug-1_0_0-77e2e94772b6eb43759e34ed1ad7da4674e19cab_jar-snapshot.bin has been added.
+[        ]   Input property 'classpathSnapshotProperties.classpathSnapshot' file /Users/shahedkollol/.gradle/caches/9.1.0/transforms/8332598e04ce9ab098ce4c3df1ecdb14/transformed/x86_64_debug-1_0_0-77e2e94772b6eb43759e34ed1ad7da4674e19cab_jar-snapshot.bin has been added.
+[        ]   and more...
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/kotlin', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/java', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/kotlin', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/java', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/kotlin', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/java', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/java', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/kotlin', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/kotlin', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/java', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/kotlin', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/java', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/kotlin', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/java', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/java', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/kotlin', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/kotlin', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/java', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/kotlin', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/java', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/kotlin', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/java', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/java', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/kotlin', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/kotlin', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/java', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/kotlin', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/java', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/kotlin', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/java', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/java', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/kotlin', not found
+[        ] Kotlin source files: /Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/main/kotlin/com/example/vargtichai02/MainActivity.kt
+[        ] Java source files: /Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+[        ] Script source files: 
+[        ] Script file extensions: 
+[        ] Using Kotlin/JVM incremental compilation
+[        ] [KOTLIN] Kotlin compilation 'jdkHome' argument: null
+[        ] i: Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[], generateCompilerRefIndex=false), sourceChanges=org.jetbrains.kotlin.buildtools.api.SourcesChanges$Known@5003da33, classpathChanges=ToBeComputedByIncrementalCompiler, workingDir=/Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/kotlin/compileDebugKotlin/cacheable, multiModuleICSettings=null, icFeatures=IncrementalCompilationFeatures(usePreciseJavaTracking=true, withAbiSnapshot=false, preciseCompilationResultsBackup=true, keepIncrementalCompilationCachesInMemory=true, enableUnsafeIncrementalCompilationForMultiplatform=false, enableMonotonousIncrementalCompileSetExpansion=true), outputFiles=[/Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/tmp/kotlin-classes/debug, /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/kotlin/compileDebugKotlin/cacheable, /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/kotlin/compileDebugKotlin/local-state])
+[        ] i: Finished executing kotlin compiler using DAEMON strategy
+[        ] Resolve mutations for :app:compileDebugJavaWithJavac (Thread[#1264,included builds,5,main]) started.
+[        ] :app:compileDebugJavaWithJavac (Thread[#1264,included builds,5,main]) started.
+[  +80 ms] > Task :app:compileDebugJavaWithJavac UP-TO-DATE
+[        ] Custom actions are attached to task ':app:compileDebugJavaWithJavac'.
+[        ] Caching disabled for task ':app:compileDebugJavaWithJavac' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:compileDebugJavaWithJavac' is not up-to-date because:
+[        ]   Input property 'classpath' file /Users/shahedkollol/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/23.0.0/8cc20c07506ec18e0834947b84a864bfc094484e/annotations-23.0.0.jar has been removed.
+[        ]   Input property 'classpath' file /Users/shahedkollol/.gradle/caches/modules-2/files-2.1/io.flutter/arm64_v8a_debug/1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab/74e2fd290315ec7efdadfdb5dcb2d8d39ffb17d4/arm64_v8a_debug-1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab.jar has been added.
+[        ]   Input property 'classpath' file /Users/shahedkollol/.gradle/caches/modules-2/files-2.1/io.flutter/x86_64_debug/1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab/7c3290d02ceac743e6a38842aca5ad186f1a08b4/x86_64_debug-1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab.jar has been added.
+[        ]   and more...
+[        ] Compilation mode: in-process compilation
+[        ] Created classpath snapshot for incremental compilation in 0.033 secs.
+[        ] None of the classes needs to be compiled! Analysis took 0.067 secs. 
+[        ] Resolve mutations for :app:dexBuilderDebug (Thread[#1264,included builds,5,main]) started.
+[        ] :app:dexBuilderDebug (Thread[#1264,included builds,5,main]) started.
+[        ] > Task :app:dexBuilderDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:dexBuilderDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:dexBuilderDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:mergeDebugGlobalSynthetics (Thread[#1264,included builds,5,main]) started.
+[        ] :app:mergeDebugGlobalSynthetics (Thread[#1264,included builds,5,main]) started.
+[        ] > Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugGlobalSynthetics' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeDebugGlobalSynthetics' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugJavaRes (Thread[#1264,included builds,5,main]) started.
+[        ] :app:processDebugJavaRes (Thread[#1264,included builds,5,main]) started.
+[        ] > Task :app:processDebugJavaRes UP-TO-DATE
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/main/resources', not found
+[        ] file or directory '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app/src/debug/resources', not found
+[        ] Caching disabled for task ':app:processDebugJavaRes' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:processDebugJavaRes' as it is up-to-date.
+[        ] Resolve mutations for :app:mergeDebugJavaResource (Thread[#1264,included builds,5,main]) started.
+[        ] :app:mergeDebugJavaResource (Thread[#1264,included builds,5,main]) started.
+[  +96 ms] Resolve mutations for :app:mergeProjectDexDebug (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:mergeProjectDexDebug (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:mergeProjectDexDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeProjectDexDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeProjectDexDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:validateSigningDebug (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:validateSigningDebug (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:validateSigningDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:validateSigningDebug' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:validateSigningDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:writeDebugAppMetadata (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:writeDebugAppMetadata (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:writeDebugAppMetadata UP-TO-DATE
+[        ] Caching disabled for task ':app:writeDebugAppMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:writeDebugAppMetadata' as it is up-to-date.
+[        ] Resolve mutations for :app:writeDebugSigningConfigVersions (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] :app:writeDebugSigningConfigVersions (Thread[#1270,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+[        ] Caching disabled for task ':app:writeDebugSigningConfigVersions' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:writeDebugSigningConfigVersions' as it is up-to-date.
+[ +800 ms] > Task :app:mergeDebugJavaResource
+[        ] Caching disabled for task ':app:mergeDebugJavaResource' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:mergeDebugJavaResource' is not up-to-date because:
+[        ]   Input property 'externalLibJavaRes.fileCollection' file /Users/shahedkollol/.gradle/caches/modules-2/files-2.1/io.flutter/armeabi_v7a_debug/1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab/606b5212fc1f3bea832c4c6b3a7593c1eba14a84/armeabi_v7a_debug-1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab.jar has been added.
+[        ]   Input property 'externalLibJavaRes.fileCollection' file /Users/shahedkollol/.gradle/caches/modules-2/files-2.1/io.flutter/x86_64_debug/1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab/7c3290d02ceac743e6a38842aca5ad186f1a08b4/x86_64_debug-1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab.jar has been added.
+[ +993 ms] > Task :app:mergeDebugNativeLibs
+[        ] Caching disabled for task ':app:mergeDebugNativeLibs' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:mergeDebugNativeLibs' is not up-to-date because:
+[        ]   Input property 'externalLibNativeLibs' file /Users/shahedkollol/.gradle/caches/9.1.0/transforms/8986d0685eac52ce713572a6d2cb7b72/transformed/armeabi_v7a_debug-1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab/armeabi-v7a/libflutter.so has been added.
+[        ]   Input property 'externalLibNativeLibs' file /Users/shahedkollol/.gradle/caches/9.1.0/transforms/47587d16b3931c14203726fb63a81587/transformed/x86_64_debug-1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab/x86_64/libflutter.so has been added.
+[+3699 ms] Resolve mutations for :app:stripDebugDebugSymbols (Thread[#1267,Execution worker Thread 3,5,main]) started.
+[        ] :app:stripDebugDebugSymbols (Thread[#1267,Execution worker Thread 3,5,main]) started.
+[ +200 ms] > Task :app:stripDebugDebugSymbols
+[        ] Caching disabled for task ':app:stripDebugDebugSymbols' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:stripDebugDebugSymbols' is not up-to-date because:
+[        ]   Input property 'inputDir' file /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/merged_native_libs/debug/mergeDebugNativeLibs/out/lib/armeabi-v7a/libflutter.so has been added.
+[        ]   Input property 'inputDir' file /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/merged_native_libs/debug/mergeDebugNativeLibs/out/lib/x86_64/libflutter.so has been added.
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/shahedkollol/Library/Android/sdk
+[        ] Starting process 'command '/Users/shahedkollol/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-strip''. Working directory: /Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app Command: /Users/shahedkollol/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-strip --strip-unneeded -o /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/stripped_native_libs/debug/stripDebugDebugSymbols/out/lib/x86_64/libflutter.so /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/merged_native_libs/debug/mergeDebugNativeLibs/out/lib/x86_64/libflutter.so
+[        ] Starting process 'command '/Users/shahedkollol/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-strip''. Working directory: /Users/shahedkollol/AndroidStudioProjects/vargtichai02/android/app Command: /Users/shahedkollol/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-strip --strip-unneeded -o /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/stripped_native_libs/debug/stripDebugDebugSymbols/out/lib/armeabi-v7a/libflutter.so /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/merged_native_libs/debug/mergeDebugNativeLibs/out/lib/armeabi-v7a/libflutter.so
+[        ] Successfully started process 'command '/Users/shahedkollol/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-strip''
+[        ] Successfully started process 'command '/Users/shahedkollol/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-strip''
+[        ] Resolve mutations for :app:packageDebug (Thread[#1267,Execution worker Thread 3,5,main]) started.
+[        ] :app:packageDebug (Thread[#1267,Execution worker Thread 3,5,main]) started.
+[ +601 ms] > Task :app:packageDebug
+[        ] Custom actions are attached to task ':app:packageDebug'.
+[        ] Caching disabled for task ':app:packageDebug' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:packageDebug' is not up-to-date because:
+[        ]   Input property 'jniFolders' file /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/stripped_native_libs/debug/stripDebugDebugSymbols/out/lib/armeabi-v7a/libflutter.so has been added.
+[        ]   Input property 'jniFolders' file /Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/intermediates/stripped_native_libs/debug/stripDebugDebugSymbols/out/lib/x86_64/libflutter.so has been added.
+[        ] Resolve mutations for :app:createDebugApkListingFileRedirect (Thread[#1268,Execution worker Thread 4,5,main]) started.
+[        ] :app:createDebugApkListingFileRedirect (Thread[#1268,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+[        ] Caching disabled for task ':app:createDebugApkListingFileRedirect' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:createDebugApkListingFileRedirect' as it is up-to-date.
+[        ] Resolve mutations for :app:assembleDebug (Thread[#1267,Execution worker Thread 3,5,main]) started.
+[        ] :app:assembleDebug (Thread[#1267,Execution worker Thread 3,5,main]) started.
+[ +194 ms] > Task :app:assembleDebug
+[        ] Caching disabled for task ':app:assembleDebug' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:assembleDebug' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Build 99b2c158-da6c-4a4f-a3ed-8065f5d43c91 is closed
+[        ] Build 049254cd-b654-435e-a1c8-f5a0ad421b68 is closed
+[        ] [Incubating] Problems report is available at: file:///Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/reports/problems/problems-report.html
+[        ] Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+[        ] You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+[        ] For more on this, please refer to https://docs.gradle.org/9.1.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+[        ] BUILD SUCCESSFUL in 17s
+[        ] 53 actionable tasks: 18 executed, 35 up-to-date
+[        ] Watched directory hierarchies: [/opt/homebrew/share/flutter/packages/flutter_tools/gradle, /Users/shahedkollol/AndroidStudioProjects/vargtichai02/android, /Users/shahedkollol/AndroidStudioProjects/VangtiChai.dart/android]
+[  +14 ms] Running Gradle task 'assembleDebug'... (completed in 17.7s)
+[   +6 ms] Calculate SHA1: LocalDirectory: '/Users/shahedkollol/AndroidStudioProjects/vargtichai02/build/app/outputs/flutter-apk'/app-debug.apk
+[+1472 ms] ✓ Built build/app/outputs/flutter-apk/app-debug.apk
+[   +3 ms] "flutter apk" took 19,863ms.
+[   +5 ms] executing: sw_vers -productName
+[  +14 ms] Exit code 0 from: sw_vers -productName
+[        ] macOS
+[        ] executing: sw_vers -productVersion
+[  +11 ms] Exit code 0 from: sw_vers -productVersion
+[        ] 26.5.1
+[        ] executing: sw_vers -buildVersion
+[  +11 ms] Exit code 0 from: sw_vers -buildVersion
+[        ] 25F80
+[        ] executing: uname -m
+[   +5 ms] Exit code 0 from: uname -m
+[        ] arm64
+[  +11 ms] Running 1 shutdown hook
+[   +1 ms] Shutdown hooks complete
+[ +224 ms] exiting with code 0
