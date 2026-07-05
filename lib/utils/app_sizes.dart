@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 /// Flutter equivalent of res/values/sizes.xml.
-///
 /// All pixel/font/spacing values are centralised here.
 /// Widgets never hardcode numeric sizes — they always call AppSizes.
 abstract class AppSizes {
